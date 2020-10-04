@@ -1,0 +1,9 @@
+import math
+v1 = input().split(" ")
+v2 = input().split(" ")
+
+x1,y1 = v1
+x2,y2 = v2
+
+v3 = (math.sqrt((float(x2)-float(x1))**2 + (float(y2)-float(y1))**2))
+print("%.4f"%v3)
